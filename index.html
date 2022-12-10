@@ -3,12 +3,14 @@
 		<link href="style.css" rel="stylesheet">
 		<title>Brad Demirjian resume</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		<script src="script.js"></script>
 	</head>
 
 	<body>
 		<header id="header">
 			<!-- resume header with your name and title -->
 			<h1><b>BRAD</b> DEMIRJIAN</h1>
+			<div onclick="openNav()" align = "left"><strong style="margin: left; color: darkblue;";>NAVIGATION</strong></div>
 			<hr>
 			AGILE DEVELOPMENT & PRODUCT LEADER
 			<br></br>
@@ -16,6 +18,13 @@
 			<hr>
 		</header>
 		<main>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">RESUME | CV</a>
+				<a href="case_study1.html">CASE STUDY 1 | MISSION IMPOSSIBLE</a>
+				<!-- <a href="#">Clients</a>
+				<a href="#">Contact</a> -->
+			</div>
 			<article id="mainLeft">
 				<section>
 					<h2>CONTACT</h2>
