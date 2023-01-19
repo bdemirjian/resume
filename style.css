@@ -51,7 +51,9 @@ h1, h2 {
     border-right: 1px solid lightgray;
 }
 
-
+.reds {
+    color:Red;
+}
 
 /* The side navigation menu */
 .sidenav {
